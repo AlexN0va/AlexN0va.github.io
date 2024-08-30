@@ -1,0 +1,46 @@
+.details{
+    border-color: rgb(100, 97, 97);
+    border-style: solid;
+    border-width: 1.5px;
+
+
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #e4f9f5, #c0f0e7, #b6e0f6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .cloud1{
+    position: relative;
+    left: 400px;
+  }
+
+  .cloud2{
+    position: relative;
+    left: -300px;
+  }
+
+  .navbar{
+    color: black;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.footer > a{
+    color: black;
+
+}
