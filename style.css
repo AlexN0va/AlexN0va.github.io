@@ -1,3 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    box-sizing: border-box;
+  }
+
+#anim{
+    position: relative; /* Ensure it wraps around the canvas */
+    width: 100%; /* Full width of the viewport */
+    height: 692px; /* Set a fixed height for the header */
+    overflow: hidden; /* Hide overflow to keep the animation contained */
+    border-width: 0 !important;
+    margin-bottom: 48px;
+}
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block; /* Prevent canvas from adding extra space */
+    border-width: 0;
+  
+  }
+  
+  body{
+    border-width: 0;
+  }
+
+
+
+.navbar{
+    color: black;
+  }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.footer > a{
+    color: black;
+
+}
+
+
 .details{
     border-color: rgb(100, 97, 97);
     border-style: solid;
@@ -25,8 +70,10 @@
   }
 
   .cloud1{
+    display: inline-block;
     position: relative;
     left: 400px;
+    margin-bottom: 10px;
   }
 
   .cloud2{
@@ -34,13 +81,37 @@
     left: -300px;
   }
 
-  .navbar{
-    color: black;
+  .card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 6%;
   }
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-.footer > a{
-    color: black;
+  .list-group-item{
+    border-top-left-radius: 5%;
+  }
+  .card-header{
+    background-color: white;
+  }
 
-}
+  .custom-badge{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    color: #572953;
+    background-color: #532b5069;
+  }
+  .custom-badge1{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #0b5dbb;
+    background-color: #0b5dbb81;
+    margin: 5px 0px;
+  }
+  a{
+    color: inherit
+  }
+  a:hover{
+    color: inherit
+  }
