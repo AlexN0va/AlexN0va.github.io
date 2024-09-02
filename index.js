@@ -63,7 +63,7 @@ function initializeAnimation() {
     const myText1 = new Text()
     scene.add(myText1)
     // Set properties to configure:
-    myText1.text = "This is why I love build"
+    myText1.text = "This is why I love to code"
     myText1.fontSize = 0.2
     myText1.position.z = 17
     myText1.position.x = -0.68

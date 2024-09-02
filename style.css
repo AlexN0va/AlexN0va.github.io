@@ -75,6 +75,15 @@ body{
   left: 400px;
   margin-bottom: 10px;
 }
+@media only screen and (max-width: 950px) {
+  .cloud1{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    margin-bottom: 10px;
+  }
+
+}
 
 .cloud2{
   position: relative;
@@ -115,3 +124,23 @@ a{
 a:hover{
   color: inherit
 }
+/* this is fro the navbar and the image of me */
+@media only screen and (max-width: 1000px) {
+  .imgme{
+    display: block;  /* Ensures the image behaves as a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+/* thsi is the for the social links */
+@media only screen and (max-width: 768px) {
+  .socLinkWrap{
+      /* justify-content: center; Keeps the icons centered */
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .socLink{
+      display: inline-block;
+  }
+  }
+
