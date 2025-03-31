@@ -12,7 +12,7 @@ function initializeType() {
             window.typed.destroy();
         }
         var typed = new Typed(".auto-type", {
-            strings: ["Coder", "Builder", "Athelete", "Robotics Enthusiast", "Student"],
+            strings: ["Problem Solver", "Builder", "Athlete", "Robotics Enthusiast", "Student"],
             typeSpeed: 200,
             backSpeed: 200,
             loop: true
