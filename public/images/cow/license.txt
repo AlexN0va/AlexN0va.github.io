@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Cow Rig
+* source:	https://sketchfab.com/3d-models/low-poly-cow-rig-30a8e0e94c6242ef972e8158d29efab5
+* author:	yukonriver (https://sketchfab.com/yukonriver)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Cow Rig" (https://sketchfab.com/3d-models/low-poly-cow-rig-30a8e0e94c6242ef972e8158d29efab5) by yukonriver (https://sketchfab.com/yukonriver) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
